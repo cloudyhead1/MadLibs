@@ -30,7 +30,7 @@ function getStory(formData) {
 }
 
 function generateStory1(formData){
-  return `I woke up to the ${formData.adjective1} smell of turkey roasting in the room downstairs. i ${formData.verb1(past_tence)} down the stairs to see if i could help ${formData.verb1} the dinner. When i got there, I couldn't believe my eyes !`
+  return `I woke up to the ${formData.adjective1} smell of turkey roasting in the room downstairs. i ${formData.verb1(past_tence)} down the stairs to see if i could help ${formData.verb1} the dinner. When i got there, I couldn't believe my eyes! There were ${formData.Plural_noun} on the ${formData.noun} !`
 }
 
 function generateStory2(formData){
